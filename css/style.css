@@ -12,3 +12,28 @@ body {
   background: linear-gradient(to vottom, #6ab7f5, #fff);
   min-height: 100vh;
 }
+main {
+  display: inline-block;
+  margin-top: 2%;
+  padding: 15px;
+  position: relative;
+}
+.pokedex {
+  width: 100%;
+  max-width: 425px;
+}
+.pokedex__image {
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  transform: translate(-63%, 20%);
+  height: 18%;
+}
+.pokedex__data{
+    position: absolute;
+    fot-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right:27%;
+    font-size: clamp(8px, 5vw, 25px);
+}
